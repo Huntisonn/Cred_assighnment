@@ -277,7 +277,7 @@ class BlogService {
         return result;
     }
 
-    // Get posts by author
+    
     public List<BlogPost> getPostsByAuthor(int authorId) {
 
         List<BlogPost> result = new ArrayList<>();
@@ -294,7 +294,7 @@ class BlogService {
         return result;
     }
 
-    // Get a single post
+    
     public Optional<BlogPost> getPost(int postId) {
 
         BlogPost post = posts.get(postId);
